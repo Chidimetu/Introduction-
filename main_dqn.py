@@ -3,7 +3,6 @@ import numpy as np
 from dqn_agent import DQNAgent
 from utils import plot_learning_curve, make_env
 from gym import wrappers
-
 if __name__ == '__main__':
     env = make_env('PongNoFrameskip-v4')
     #env = gym.make('CartPole-v1')
